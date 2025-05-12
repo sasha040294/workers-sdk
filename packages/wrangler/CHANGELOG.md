@@ -1,5 +1,22 @@
 # wrangler
 
+## 3.114.9
+
+### Patch Changes
+
+- [#8681](https://github.com/cloudflare/workers-sdk/pull/8681) [`7a57c14`](https://github.com/cloudflare/workers-sdk/commit/7a57c14cf2a21c81e622d1673979bf665b2fab04) Thanks [@workers-devprod](https://github.com/workers-devprod)! - fix(miniflare): strip CF-Connecting-IP header from all outbound requests
+
+- [#9128](https://github.com/cloudflare/workers-sdk/pull/9128) [`c535845`](https://github.com/cloudflare/workers-sdk/commit/c5358457c93bf6138386f829fd9be60c89ea9867) Thanks [@dario-piotrowicz](https://github.com/dario-piotrowicz)! - fix: remove outdated js-doc comment for `unstable_startDevWorker`'s `entrypoint`
+
+- [#9172](https://github.com/cloudflare/workers-sdk/pull/9172) [`4e943b1`](https://github.com/cloudflare/workers-sdk/commit/4e943b185a3bec8de67fd9695b048f61d90410d5) Thanks [@vicb](https://github.com/vicb)! - validate r2 bucket names
+
+- [#9163](https://github.com/cloudflare/workers-sdk/pull/9163) [`d67cd0d`](https://github.com/cloudflare/workers-sdk/commit/d67cd0d8b4861ce9437e40a5e3d4de2b30f2da01) Thanks [@petebacondarwin](https://github.com/petebacondarwin)! - Do not report "d1 execute" command file missing error to Sentry
+
+- [#9166](https://github.com/cloudflare/workers-sdk/pull/9166) [`9b4c91d`](https://github.com/cloudflare/workers-sdk/commit/9b4c91dda738a6d6398780e73e455eacb89aa7ab) Thanks [@lambrospetrou](https://github.com/lambrospetrou)! - Fix d1 info command showing read_replication: [object Object]
+
+- Updated dependencies [[`7a57c14`](https://github.com/cloudflare/workers-sdk/commit/7a57c14cf2a21c81e622d1673979bf665b2fab04), [`56a0d6e`](https://github.com/cloudflare/workers-sdk/commit/56a0d6e854da5b9b6a0e78c4f49ed325ed75ed52)]:
+  - miniflare@3.20250408.2
+
 ## 3.114.8
 
 ### Patch Changes

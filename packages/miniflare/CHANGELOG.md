@@ -1,5 +1,17 @@
 # miniflare
 
+## 3.20250408.2
+
+### Patch Changes
+
+- [#8681](https://github.com/cloudflare/workers-sdk/pull/8681) [`7a57c14`](https://github.com/cloudflare/workers-sdk/commit/7a57c14cf2a21c81e622d1673979bf665b2fab04) Thanks [@workers-devprod](https://github.com/workers-devprod)! - fix(miniflare): strip CF-Connecting-IP header from all outbound requests
+
+- [#9211](https://github.com/cloudflare/workers-sdk/pull/9211) [`56a0d6e`](https://github.com/cloudflare/workers-sdk/commit/56a0d6e854da5b9b6a0e78c4f49ed325ed75ed52) Thanks [@petebacondarwin](https://github.com/petebacondarwin)! - fix: ensure the fetch proxy message port is started
+
+  While Node.js will start the message port automatically when a `message` event listener is added,
+  this diverges from the standard Web API for message ports, which require you to explicitly start
+  listening on the port.
+
 ## 3.20250408.1
 
 ### Patch Changes
