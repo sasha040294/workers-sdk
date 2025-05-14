@@ -3024,6 +3024,7 @@ test("Miniflare: does not strip CF-Connecting-IP when configured", async (t) => 
 		script:
 			"export default { fetch(request) { return new Response(request.headers.get(`CF-Connecting-IP`)) } }",
 		modules: true,
+		stripCfConnectingIp: true,
 	});
 	const serverUrl = await server.ready;
 
